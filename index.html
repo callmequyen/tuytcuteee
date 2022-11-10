@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" type="text/css"></link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+      /* canvas {
+        width: 100%;
+        height: 100%;
+      } */
+      
+        </style>
+  </head>
+  <body>
+    
+    <div class="app">
+        <div class="container">
+            <canvas class="canvas" id="canvas" width="1400" height="600">
+            </canvas>
+            <div class="outer-canvas">
+              <input class="form">
+                  <div class="heart-container">
+                      <div class="name-wrapper">
+                          <label for="name">Nhập tên người cute</label>
+                          <input id="name" class="name-input" type="text"></input>
+                      </div> 
+                      <div class="text-guide">Nhấn yêu để thấy điều bất ngờ</div> 
+                      <div class="button-wrapper">
+                          <button class="button btn-no-yeu">Hong yêu</button>
+                          <button class="button btn-yeu-force disable" >Rất yêu</button>
+                          <button class="button btn-yeu">Yêu</button>
+                      </div>
+                      <div class="text-guide-2 disable">Rất tiếc! Cậu chỉ có thể yêu tớ thui</div> 
+      
+                  <div class="heart"></div>
+                  <div class="heart2"></div>
+                  </div> 
+              </div>
+            </div>
+            
+        </div>
+        <div class="box">
+            <canvas class="" id="pinkboard" width="1400" height="600"></canvas>
+            <div id="name-show"></div>
+            <button class="button btn-iu-hon">Bấm để iu hơn</button>
+    
+        </div>
+    </div>
+    <script src="heart.js"></script>
+    <script src="app.js"></script>
+
+
+  </body>
+</html>
